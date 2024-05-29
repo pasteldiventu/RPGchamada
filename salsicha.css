@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    }
+
+.cabecalho {
+        padding: 0% 0 0 25%;
+    
+    }
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+
+}
+.cabecalho__links{
+    color: #2DE09F;
+    text-decoration: none;
+}
+
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #093f2b;
+}
+h1 {
+    font-size:40px ;
+    color: #2DE09F;
+
+}
+
+p{
+    font-size: 24px;;
+
+}
+header {
+    background-color: #36302F;
+    color: #6c2de0;
+
+}
+a {
+    font-size: 18px;
+    color: dodgerblue;
+
+}
+strong {
+    color: #2DACE0;
+    border: 1px solid #2DACE0;
+    border-radius: 18px;
+    padding: 3px;
+}
+
+.salsicha{
+    margin: 10% 9%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.conteudo {
+    width: 615px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linkbotao{
+        border: 2px dashed;
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 24px;
+        padding: 22px 0;
+        text-decoration: none;
+        color: #2DE09F;
+        font-family: "Rubik Glitch", system-ui;
+    }
+
+.linkbotao:hover {
+        background-color: #2DACE0;
+    
+}
+.rodape{ text-align:center;}
